@@ -20,7 +20,7 @@ class AddBook extends Component {
 
   displayAuthor() {
     const { loading, authors } = this.props.getAuthorsQuery;
-    console.log('Authors', authors);
+    // console.log('Authors', authors);
 
     if (loading) {
       return <option>Loading authors...</option>;
